@@ -6,7 +6,7 @@
 #
 cachetools==5.5.2
     # via google-auth
-certifi==2024.7.4
+certifi==2026.10.18
     # via
     #   kubernetes
     #   requests
@@ -14,29 +14,31 @@ charset-normalizer==3.3.2
     # via requests
 google-auth==2.38.0
     # via kubernetes
-idna==3.7
+idna==3.15
     # via requests
 iniconfig==2.0.0
     # via pytest
 kubernetes==29.0.0
     # via -r requirements.in
-oauthlib==3.2.2
+oauthlib==4.0.0
     # via
     #   kubernetes
     #   requests-oauthlib
-packaging==23.2
+packaging==26.3
     # via pytest
 pdpyras==4.5.0
     # via -r requirements.in
-pluggy==1.5.0
+pluggy==1.7.0
     # via pytest
-pyasn1==0.6.2
+pyasn1==0.6.4
     # via
     #   pyasn1-modules
     #   rsa
 pyasn1-modules==0.4.1
     # via google-auth
-pytest==8.2.2
+pygments==2.21.0
+    # via pytest
+pytest==9.2.0
     # via
     #   -r requirements.in
     #   pytest-env
@@ -46,7 +48,7 @@ python-dateutil==2.9.0.post0
     # via kubernetes
 pyyaml==6.0.2
     # via kubernetes
-requests==2.32.4
+requests==2.33.0
     # via
     #   -r requirements.in
     #   kubernetes
@@ -60,7 +62,7 @@ six==1.17.0
     # via
     #   kubernetes
     #   python-dateutil
-urllib3==2.6.3
+urllib3==2.8.0
     # via
     #   kubernetes
     #   pdpyras
